@@ -2,10 +2,10 @@
   "name": "mojit",
   "version": "1.0.0",
   "description": "Mojit is a git-like version control system based on JavaScript",
-  "main": "mojit.js",
+  "main": "./build/index.js",
   "scripts": {
     "test": "\"\"",
-    "build": "tsc mojit.ts"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "typescript": "^5.7.3"
   },
   "bin": {
-    "mojit": "mojit.js"
+    "mojit": "./build/index.js"
   },
   "dependencies": {
     "@inquirer/prompts": "^7.3.2",
