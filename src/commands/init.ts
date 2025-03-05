@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { input } from '@inquirer/prompts';
+import process from 'process';
 
 const supportedOptions: Record<string, Record<string, string>> = {
     b: {
@@ -39,9 +40,12 @@ export async function init(paths: Record<string, string>, options: Record<string
         projectDescription = "";
     }
     fs.mkdirSync(repoPath);
+    fs.mkdirSync(path.join(repoPath, 'objects'));
+    fs.mkdirSync(path.join(repoPath, 'refs'));
+    fs.writeFileSync(path.join(repoPath, 'HEAD'), 'ref: refs/heads/main\n');
     fs.writeFileSync(path.join(repoPath, 'project.json'), JSON.stringify({ name: projectName, description: projectDescription }, null,
         2));
-    (!isQuiet) ? console.log(`Mojit initialized in current directory: ${process.cwd()}`) : process.exit(0);
+    (!isQuiet) ? console.log(`Mojit initialized in current directory: ${repoPath}`) : process.exit(0);
 }
 
 function checkIfFolderExists(repoPath: string) {
