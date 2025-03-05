@@ -1,0 +1,2805 @@
+.:
+total 88
+drwxr-xr-x  7 wickedwango wickedwango  4096 Mar  6 00:21 .
+drwxr-xr-x  6 wickedwango wickedwango  4096 Feb 25 00:04 ..
+drwxr-xr-x  6 wickedwango wickedwango  4096 Mar  6 00:11 build
+-rw-r--r--  1 wickedwango wickedwango     0 Mar  6 00:21 fileDirectory.txt
+drwxr-xr-x  7 wickedwango wickedwango  4096 Mar  5 23:16 .git
+-rw-r--r--  1 wickedwango wickedwango   262 Feb 24 23:53 .gitignore
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 node_modules
+-rw-r--r--  1 wickedwango wickedwango   699 Feb 27 20:56 package.json
+-rw-r--r--  1 wickedwango wickedwango 35099 Feb 24 22:56 package-lock.json
+drwxr-xr-x  6 wickedwango wickedwango  4096 Mar  6 00:00 src
+-rw-r--r--  1 wickedwango wickedwango 12601 Feb 27 20:38 tsconfig.json
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 27 20:30 .vscode
+
+./build:
+total 32
+drwxr-xr-x 6 wickedwango wickedwango 4096 Mar  6 00:11 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Mar  6 00:21 ..
+-rw-r--r-- 1 wickedwango wickedwango  274 Mar  6 00:17 commandChain.js
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:11 commands
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:11 config
+-rwxr-xr-x 1 wickedwango wickedwango 4030 Mar  6 00:17 index.js
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:11 types
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:11 utils
+
+./build/commands:
+total 16
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:11 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Mar  6 00:11 ..
+-rw-r--r-- 1 wickedwango wickedwango 2009 Mar  6 00:17 add.js
+-rw-r--r-- 1 wickedwango wickedwango 3163 Mar  6 00:17 init.js
+
+./build/config:
+total 12
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:11 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Mar  6 00:11 ..
+-rw-r--r-- 1 wickedwango wickedwango  665 Mar  6 00:17 supportedOptions.config.js
+
+./build/types:
+total 12
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:11 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Mar  6 00:11 ..
+-rw-r--r-- 1 wickedwango wickedwango   77 Mar  6 00:17 types.js
+
+./build/utils:
+total 16
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:11 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Mar  6 00:11 ..
+-rw-r--r-- 1 wickedwango wickedwango  844 Mar  6 00:17 blob.js
+-rw-r--r-- 1 wickedwango wickedwango 1314 Mar  6 00:17 file.js
+
+./.git:
+total 56
+drwxr-xr-x  7 wickedwango wickedwango 4096 Mar  5 23:16 .
+drwxr-xr-x  7 wickedwango wickedwango 4096 Mar  6 00:21 ..
+-rw-r--r--  1 wickedwango wickedwango   37 Mar  5 23:16 COMMIT_EDITMSG
+-rw-r--r--  1 wickedwango wickedwango  336 Feb 26 22:17 config
+-rw-r--r--  1 wickedwango wickedwango   73 Feb 24 21:33 description
+-rw-r--r--  1 wickedwango wickedwango   99 Mar  6 00:20 FETCH_HEAD
+-rw-r--r--  1 wickedwango wickedwango   23 Feb 24 21:33 HEAD
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 21:33 hooks
+-rw-r--r--  1 wickedwango wickedwango  947 Mar  5 23:16 index
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 21:33 info
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 25 01:36 logs
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 objects
+-rw-r--r--  1 wickedwango wickedwango   41 Mar  5 23:16 ORIG_HEAD
+drwxr-xr-x  5 wickedwango wickedwango 4096 Feb 25 01:38 refs
+
+./.git/hooks:
+total 72
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 21:33 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Mar  5 23:16 ..
+-rwxr-xr-x 1 wickedwango wickedwango  478 Feb 24 21:33 applypatch-msg.sample
+-rwxr-xr-x 1 wickedwango wickedwango  896 Feb 24 21:33 commit-msg.sample
+-rwxr-xr-x 1 wickedwango wickedwango 4726 Feb 24 21:33 fsmonitor-watchman.sample
+-rwxr-xr-x 1 wickedwango wickedwango  189 Feb 24 21:33 post-update.sample
+-rwxr-xr-x 1 wickedwango wickedwango  424 Feb 24 21:33 pre-applypatch.sample
+-rwxr-xr-x 1 wickedwango wickedwango 1649 Feb 24 21:33 pre-commit.sample
+-rwxr-xr-x 1 wickedwango wickedwango  416 Feb 24 21:33 pre-merge-commit.sample
+-rwxr-xr-x 1 wickedwango wickedwango 1492 Feb 24 21:33 prepare-commit-msg.sample
+-rwxr-xr-x 1 wickedwango wickedwango 1374 Feb 24 21:33 pre-push.sample
+-rwxr-xr-x 1 wickedwango wickedwango 4898 Feb 24 21:33 pre-rebase.sample
+-rwxr-xr-x 1 wickedwango wickedwango  544 Feb 24 21:33 pre-receive.sample
+-rwxr-xr-x 1 wickedwango wickedwango 2783 Feb 24 21:33 push-to-checkout.sample
+-rwxr-xr-x 1 wickedwango wickedwango 2308 Feb 24 21:33 sendemail-validate.sample
+-rwxr-xr-x 1 wickedwango wickedwango 3650 Feb 24 21:33 update.sample
+
+./.git/info:
+total 12
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 21:33 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Mar  5 23:16 ..
+-rw-r--r-- 1 wickedwango wickedwango  240 Feb 24 21:33 exclude
+
+./.git/logs:
+total 16
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 25 01:36 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Mar  5 23:16 ..
+-rw-r--r-- 1 wickedwango wickedwango 1497 Mar  5 23:16 HEAD
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 25 01:38 refs
+
+./.git/logs/refs:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 25 01:38 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 25 01:36 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 25 01:36 heads
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 25 01:38 remotes
+
+./.git/logs/refs/heads:
+total 12
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 25 01:36 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 25 01:38 ..
+-rw-r--r-- 1 wickedwango wickedwango 1497 Mar  5 23:16 master
+
+./.git/logs/refs/remotes:
+total 12
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 25 01:38 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 25 01:38 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 25 01:38 origin
+
+./.git/logs/refs/remotes/origin:
+total 16
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 25 01:38 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 25 01:38 ..
+-rw-r--r-- 1 wickedwango wickedwango  148 Feb 25 01:38 HEAD
+-rw-r--r-- 1 wickedwango wickedwango 1261 Mar  5 23:16 master
+
+./.git/objects:
+total 200
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 .
+drwxr-xr-x  7 wickedwango wickedwango 4096 Mar  5 23:16 ..
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:06 02
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:16 07
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:16 0a
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 17
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 18
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 23
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 26
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:16 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:05 2b
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 30
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 32
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 3a
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:35 41
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:06 4c
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:05 4e
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:05 55
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:35 59
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 61
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:06 6c
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:36 6f
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:36 75
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:07 80
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:07 85
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 8c
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:35 8e
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 8f
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 91
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:06 94
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 a2
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:54 a4
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 b1
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:35 b4
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:07 b7
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 bc
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 c1
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 c3
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 cc
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:06 cd
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:07 ce
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 d3
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 d8
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 d9
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 de
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 f4
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:16 f5
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 fe
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 21:33 info
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 21:33 pack
+
+./.git/objects/02:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:06 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  201 Mar  5 23:06 ae24eeb68274390674ea3c8973c13ff23a2f68
+
+./.git/objects/07:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:16 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  186 Mar  5 23:16 60ed4a4bfd975d31f75bbf7f81febb7bac7c2d
+
+./.git/objects/0a:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:16 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  177 Mar  5 23:16 450d33d67cc1d5ec5ebe9b06d3ea2c632194db
+
+./.git/objects/17:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  747 Feb 27 23:57 de19144670e94c5c19627cab87d35dacf42466
+
+./.git/objects/18:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  576 Feb 27 23:57 15414dbf693e3c20f36304658bf83a2af9a0a3
+
+./.git/objects/23:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  186 Mar  5 22:55 5c3c3cca3455cb6308d784c4f2ec8113679ef1
+
+./.git/objects/26:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  186 Mar  5 22:55 6c08074c096d62c3c4f2cef8fc7d5579499fa4
+
+./.git/objects/28:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:16 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  186 Mar  5 23:16 4caefda44ebb9220d9c72b71d4d4733b0c3b69
+
+./.git/objects/2b:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:05 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango 1037 Mar  5 23:05 a26a3c1a2a2c95379246087397ad835b034c31
+
+./.git/objects/30:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango   52 Mar  5 21:36 683cc8a1bb4ab72d292e2a2cfefa21616d2445
+
+./.git/objects/32:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango 1095 Mar  5 22:55 912f0b81b7f1318ef0b67ddbc4e16d958c32d5
+
+./.git/objects/3a:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  838 Mar  5 21:36 5ec722d95f8c2b237b80453cd229359d3200f3
+
+./.git/objects/41:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:35 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  199 Feb 25 01:35 4695f1d099bedd2f03eab40c6c6f85ac4097ea
+
+./.git/objects/4c:
+total 16
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:06 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  186 Mar  5 23:06 ac75d5ec81df9af989f36a8aa57c9fb9f6f5b3
+-r--r--r--  1 wickedwango wickedwango  149 Mar  5 22:55 cca2ba42fc21f99e78ff9bc76bc2aa114b3497
+
+./.git/objects/4e:
+total 16
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:05 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  205 Feb 27 23:57 0b9743c0495eb65fad95ea362ade6a16c6b11b
+-r--r--r--  1 wickedwango wickedwango  165 Mar  5 23:05 99d29affc925cdff16024c89ce76fc1b5c8672
+
+./.git/objects/55:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:05 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  600 Mar  5 23:05 55f835e724cd29c3205a84f154bdce80e48ace
+
+./.git/objects/59:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:35 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  710 Feb 25 01:35 b519127644932b0e3679834320f967b0165eee
+
+./.git/objects/61:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango   52 Mar  5 22:55 a821a9c0e6aa56c2945197fa2721dbd8db2c71
+
+./.git/objects/6c:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:06 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango   71 Mar  5 23:06 b4782d0de1c4839c5dcb50b62f644972538c90
+
+./.git/objects/6f:
+total 16
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:36 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  370 Feb 25 01:35 aa7476c290e4945ed620ca01b3ca144dddcdcc
+-r--r--r--  1 wickedwango wickedwango  145 Feb 25 01:36 d04116b4000c6bcc8fec8307fdcc65e204bbdf
+
+./.git/objects/75:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:36 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  219 Feb 25 01:36 9da981076031b61c1ee6a7579f8bd1b5d203f1
+
+./.git/objects/80:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:07 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  608 Mar  5 23:07 65e96d9d10ba3fdb128aed2c4d856f588e0eb2
+
+./.git/objects/85:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:07 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  172 Mar  5 23:07 83a3f1ced0289b48750b09e29141f66199af8d
+
+./.git/objects/8c:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  148 Mar  5 21:36 f105fd35c69d5ecff500587aaff005cf208a81
+
+./.git/objects/8e:
+total 20
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:35 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango 8395 Feb 25 01:35 fbe5338c44e56fa7f93f070bca53040424d684
+
+./.git/objects/8f:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  255 Mar  5 21:36 cc6cf3ce7ca8ef11b8c74e9d82dee7cea2c05c
+
+./.git/objects/91:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  120 Feb 27 23:57 6b475bc6a08d041379edede789f1e118f65f1c
+
+./.git/objects/94:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:06 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango   51 Mar  5 23:06 a8ee24b66e93d54faaeb23da91d7b196ba3304
+
+./.git/objects/a2:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  177 Mar  5 22:55 07ef220af4d370f3d47ed930b1ad7b89cbb26d
+
+./.git/objects/a4:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:54 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango 1098 Mar  5 22:54 46d085f037ce8826f67a361fcbae88381eda60
+
+./.git/objects/b1:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  186 Mar  5 21:36 732cc872b541781a896abffb1697bb63d573e1
+
+./.git/objects/b4:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 25 01:35 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango 2102 Feb 25 01:35 b7d93613e287348c5b3141b7b0f7bd390b0130
+
+./.git/objects/b7:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:07 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  186 Mar  5 23:07 e51eb89581ed999ec6f91e3795eec0a3b9af31
+
+./.git/objects/bc:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  367 Feb 27 23:57 e2123efaa7c212f2f920990fa525c5d4c200db
+
+./.git/objects/c1:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  182 Mar  5 22:55 f8e787a47ea885220fb739998f815654ed84c3
+
+./.git/objects/c3:
+total 20
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango   52 Mar  5 22:55 cf73bc4b8d011624dffc03ea3081d1aa0db92b
+-r--r--r--  1 wickedwango wickedwango 4213 Feb 25 01:35 d6839cfab5def82a11ddf660728a29c72ea068
+
+./.git/objects/cc:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  146 Feb 27 23:57 eed6bb66254955f2f1c7d13e261f66c4f41d21
+
+./.git/objects/cd:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:06 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  177 Mar  5 23:06 e5c1a58e944f0d959cbb1b81d2858fabcd2cd6
+
+./.git/objects/ce:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:07 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  177 Mar  5 23:07 1d43d0bddd749ac9e04aafe5b75ee414e87a37
+
+./.git/objects/d3:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango   52 Mar  5 21:36 8951c6554f82d302c1467a18371b35964a3317
+
+./.git/objects/d8:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 22:55 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  148 Mar  5 22:55 ff4ab0328f3c327f139322f03390c5c7ff5a66
+
+./.git/objects/d9:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  186 Feb 27 23:57 4496942089efe326c03079d356aede92c35809
+
+./.git/objects/de:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 21:36 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  803 Mar  5 21:36 c2703daf4ffff8fe387b5f967179d463ce6634
+
+./.git/objects/f4:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango   51 Feb 27 23:57 7e2d6ca4a7188ce649e89659e602929fff5074
+
+./.git/objects/f5:
+total 16
+drwxr-xr-x  2 wickedwango wickedwango 4096 Mar  5 23:16 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango  153 Mar  5 23:05 11390c50556052f90aca5c57aba195b06f948a
+-r--r--r--  1 wickedwango wickedwango  190 Mar  5 23:16 9d1a3fa980a7636b3aaaece412893149f5b564
+
+./.git/objects/fe:
+total 16
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 27 23:57 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+-r--r--r--  1 wickedwango wickedwango 4232 Feb 27 23:57 a109a60abec38f17b69f223147e8607fcd11b1
+
+./.git/objects/info:
+total 8
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 21:33 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+
+./.git/objects/pack:
+total 8
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 21:33 .
+drwxr-xr-x 50 wickedwango wickedwango 4096 Mar  6 00:20 ..
+
+./.git/refs:
+total 20
+drwxr-xr-x 5 wickedwango wickedwango 4096 Feb 25 01:38 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Mar  5 23:16 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  5 23:16 heads
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 25 01:38 remotes
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 21:33 tags
+
+./.git/refs/heads:
+total 12
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  5 23:16 .
+drwxr-xr-x 5 wickedwango wickedwango 4096 Feb 25 01:38 ..
+-rw-r--r-- 1 wickedwango wickedwango   41 Mar  5 23:16 master
+
+./.git/refs/remotes:
+total 12
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 25 01:38 .
+drwxr-xr-x 5 wickedwango wickedwango 4096 Feb 25 01:38 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:20 origin
+
+./.git/refs/remotes/origin:
+total 16
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:20 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 25 01:38 ..
+-rw-r--r-- 1 wickedwango wickedwango   32 Feb 25 01:38 HEAD
+-rw-r--r-- 1 wickedwango wickedwango   41 Mar  5 23:16 master
+
+./.git/refs/tags:
+total 8
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 21:33 .
+drwxr-xr-x 5 wickedwango wickedwango 4096 Feb 25 01:38 ..
+
+./node_modules:
+total 208
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x  7 wickedwango wickedwango  4096 Mar  6 00:21 ..
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 ansi-align
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 ansi-escapes
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 ansi-regex
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 ansi-styles
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:04 .bin
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 boxen
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 camelcase
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 chalk
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 chardet
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 cli-boxes
+drwxr-xr-x  4 wickedwango wickedwango  4096 Feb 24 22:53 cliui
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 cli-width
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 color-convert
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 color-name
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 emoji-regex
+drwxr-xr-x  4 wickedwango wickedwango  4096 Feb 24 22:53 escalade
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 external-editor
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:39 g
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 get-caller-file
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 get-east-asian-width
+drwxr-xr-x  4 wickedwango wickedwango  4096 Feb 24 22:53 iconv-lite
+drwxr-xr-x 16 wickedwango wickedwango  4096 Feb 24 22:53 @inquirer
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 is-fullwidth-code-point
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 mute-stream
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 os-tmpdir
+-rw-r--r--  1 wickedwango wickedwango 34638 Feb 24 22:56 .package-lock.json
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 require-directory
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 safer-buffer
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 signal-exit
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 string-width
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 strip-ansi
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 tmp
+drwxr-xr-x  4 wickedwango wickedwango  4096 Feb 24 22:53 type-fest
+drwxr-xr-x  5 wickedwango wickedwango  4096 Feb 24 22:56 @types
+drwxr-xr-x  4 wickedwango wickedwango  4096 Feb 24 22:04 typescript
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:29 undici-types
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 widest-line
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 wrap-ansi
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 y18n
+drwxr-xr-x  7 wickedwango wickedwango  4096 Feb 24 22:53 yargs
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 yargs-parser
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 yoctocolors-cjs
+
+./node_modules/ansi-align:
+total 32
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 1748 Feb 24 22:53 CHANGELOG.md
+-rw-r--r--  1 wickedwango wickedwango 1334 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango  731 Feb 24 22:53 LICENSE
+drwxr-xr-x  6 wickedwango wickedwango 4096 Feb 24 22:53 node_modules
+-rw-r--r--  1 wickedwango wickedwango  926 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 2945 Feb 24 22:53 README.md
+
+./node_modules/ansi-align/node_modules:
+total 24
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 ansi-regex
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 emoji-regex
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 string-width
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 strip-ansi
+
+./node_modules/ansi-align/node_modules/ansi-regex:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  744 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  350 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  841 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 2565 Feb 24 22:53 readme.md
+
+./node_modules/ansi-align/node_modules/emoji-regex:
+total 52
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango  4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 es2015
+-rw-r--r-- 1 wickedwango wickedwango   427 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 10286 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango  1077 Feb 24 22:53 LICENSE-MIT.txt
+-rw-r--r-- 1 wickedwango wickedwango  1278 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango  2691 Feb 24 22:53 README.md
+-rw-r--r-- 1 wickedwango wickedwango 10287 Feb 24 22:53 text.js
+
+./node_modules/ansi-align/node_modules/emoji-regex/es2015:
+total 32
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 11104 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 11105 Feb 24 22:53 text.js
+
+./node_modules/ansi-align/node_modules/string-width:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  792 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  923 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  941 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1396 Feb 24 22:53 readme.md
+
+./node_modules/ansi-align/node_modules/strip-ansi:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  369 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  154 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  798 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1599 Feb 24 22:53 readme.md
+
+./node_modules/ansi-escapes:
+total 36
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 5573 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 3750 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango  929 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 5011 Feb 24 22:53 readme.md
+
+./node_modules/ansi-regex:
+total 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  689 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango  458 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango 1035 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 2113 Feb 24 22:53 readme.md
+
+./node_modules/ansi-styles:
+total 40
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 6349 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 4139 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango 1054 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 4327 Feb 24 22:53 readme.md
+
+./node_modules/.bin:
+total 8
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:04 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+lrwxrwxrwx  1 wickedwango wickedwango   21 Feb 24 22:04 tsc -> ../typescript/bin/tsc
+lrwxrwxrwx  1 wickedwango wickedwango   26 Feb 24 22:04 tsserver -> ../typescript/bin/tsserver
+
+./node_modules/boxen:
+total 48
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  4984 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 10923 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango  1117 Feb 24 22:53 license
+drwxr-xr-x  5 wickedwango wickedwango  4096 Feb 24 22:53 node_modules
+-rw-r--r--  1 wickedwango wickedwango  1227 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango  5404 Feb 24 22:53 readme.md
+
+./node_modules/boxen/node_modules:
+total 20
+drwxr-xr-x 5 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 ansi-styles
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 type-fest
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 wrap-ansi
+
+./node_modules/boxen/node_modules/ansi-styles:
+total 40
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 5 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 5198 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 5267 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango 1022 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 4908 Feb 24 22:53 readme.md
+
+./node_modules/boxen/node_modules/type-fest:
+total 108
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 5 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  9206 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  7048 Feb 24 22:53 license-cc0
+-rw-r--r-- 1 wickedwango wickedwango  1117 Feb 24 22:53 license-mit
+-rw-r--r-- 1 wickedwango wickedwango  1859 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 58289 Feb 24 22:53 readme.md
+drwxr-xr-x 3 wickedwango wickedwango 12288 Feb 24 22:53 source
+
+./node_modules/boxen/node_modules/type-fest/source:
+total 736
+drwxr-xr-x 3 wickedwango wickedwango 12288 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  2297 Feb 24 22:53 all-union-fields.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   510 Feb 24 22:53 and.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   637 Feb 24 22:53 arrayable.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   725 Feb 24 22:53 array-indices.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  3432 Feb 24 22:53 array-slice.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  3045 Feb 24 22:53 array-splice.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   673 Feb 24 22:53 array-tail.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   648 Feb 24 22:53 array-values.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1217 Feb 24 22:53 asyncify.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   691 Feb 24 22:53 async-return-type.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2253 Feb 24 22:53 basic.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2285 Feb 24 22:53 camel-cased-properties-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   798 Feb 24 22:53 camel-cased-properties.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1927 Feb 24 22:53 camel-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1048 Feb 24 22:53 conditional-except.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1313 Feb 24 22:53 conditional-keys.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2705 Feb 24 22:53 conditional-pick-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   964 Feb 24 22:53 conditional-pick.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1276 Feb 24 22:53 conditional-simplify.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2459 Feb 24 22:53 delimiter-cased-properties-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   779 Feb 24 22:53 delimiter-cased-properties.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  3690 Feb 24 22:53 delimiter-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2256 Feb 24 22:53 distributed-omit.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2081 Feb 24 22:53 distributed-pick.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1507 Feb 24 22:53 empty-object.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1102 Feb 24 22:53 enforce-optional.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2576 Feb 24 22:53 entries.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2848 Feb 24 22:53 entry.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  3320 Feb 24 22:53 exact.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  3068 Feb 24 22:53 except.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2050 Feb 24 22:53 find-global-type.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1625 Feb 24 22:53 fixed-length-array.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  7125 Feb 24 22:53 get.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   688 Feb 24 22:53 global-this.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1466 Feb 24 22:53 greater-than.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   470 Feb 24 22:53 greater-than-or-equal.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   667 Feb 24 22:53 has-optional-keys.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   667 Feb 24 22:53 has-readonly-keys.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1197 Feb 24 22:53 has-required-keys.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   667 Feb 24 22:53 has-writable-keys.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   468 Feb 24 22:53 if-any.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   562 Feb 24 22:53 if-empty-object.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   498 Feb 24 22:53 if-never.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   483 Feb 24 22:53 if-null.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   528 Feb 24 22:53 if-unknown.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   561 Feb 24 22:53 includes.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1271 Feb 24 22:53 int-closed-range.d.ts
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 internal
+-rw-r--r-- 1 wickedwango wickedwango  2361 Feb 24 22:53 int-range.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2251 Feb 24 22:53 invariant-of.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   880 Feb 24 22:53 is-any.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   996 Feb 24 22:53 is-equal.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   684 Feb 24 22:53 is-float.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1080 Feb 24 22:53 is-integer.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  8151 Feb 24 22:53 is-literal.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1066 Feb 24 22:53 is-never.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   419 Feb 24 22:53 is-null.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2056 Feb 24 22:53 is-tuple.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1397 Feb 24 22:53 is-unknown.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1619 Feb 24 22:53 iterable-element.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2846 Feb 24 22:53 join.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1034 Feb 24 22:53 jsonifiable.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  4188 Feb 24 22:53 jsonify.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   880 Feb 24 22:53 kebab-cased-properties-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   639 Feb 24 22:53 kebab-cased-properties.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   755 Feb 24 22:53 kebab-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   905 Feb 24 22:53 keys-of-union.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1366 Feb 24 22:53 last-array-element.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   436 Feb 24 22:53 less-than.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   460 Feb 24 22:53 less-than-or-equal.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1155 Feb 24 22:53 literal-to-primitive-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   899 Feb 24 22:53 literal-to-primitive.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1236 Feb 24 22:53 literal-union.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 16532 Feb 24 22:53 merge-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1113 Feb 24 22:53 merge.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1363 Feb 24 22:53 merge-exclusive.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1346 Feb 24 22:53 multidimensional-array.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1506 Feb 24 22:53 multidimensional-readonly-array.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   943 Feb 24 22:53 non-empty-object.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   412 Feb 24 22:53 non-empty-tuple.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  5117 Feb 24 22:53 numeric.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2186 Feb 24 22:53 observable-like.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  4313 Feb 24 22:53 omit-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  3448 Feb 24 22:53 omit-index-signature.d.ts
+-rw-r--r-- 1 wickedwango wickedwango    26 Feb 24 22:53 opaque.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   893 Feb 24 22:53 optional-keys-of.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   513 Feb 24 22:53 or.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1229 Feb 24 22:53 override-properties.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 16551 Feb 24 22:53 package-json.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  4884 Feb 24 22:53 partial-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2750 Feb 24 22:53 partial-on-undefined-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1221 Feb 24 22:53 pascal-cased-properties-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   833 Feb 24 22:53 pascal-cased-properties.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   790 Feb 24 22:53 pascal-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  8231 Feb 24 22:53 paths.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  4143 Feb 24 22:53 pick-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1225 Feb 24 22:53 pick-index-signature.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   212 Feb 24 22:53 primitive.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   791 Feb 24 22:53 promisable.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  3005 Feb 24 22:53 readonly-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   637 Feb 24 22:53 readonly-keys-of.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1577 Feb 24 22:53 readonly-tuple.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1504 Feb 24 22:53 replace.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1247 Feb 24 22:53 require-all-or-none.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   872 Feb 24 22:53 require-at-least-one.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2832 Feb 24 22:53 required-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   921 Feb 24 22:53 required-keys-of.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1155 Feb 24 22:53 require-exactly-one.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   903 Feb 24 22:53 require-one-or-none.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  3005 Feb 24 22:53 schema.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   935 Feb 24 22:53 screaming-snake-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1611 Feb 24 22:53 set-field-type.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1098 Feb 24 22:53 set-non-nullable.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1146 Feb 24 22:53 set-optional.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  4703 Feb 24 22:53 set-parameter-type.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1180 Feb 24 22:53 set-readonly.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2208 Feb 24 22:53 set-required-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2790 Feb 24 22:53 set-required.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1532 Feb 24 22:53 set-return-type.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  6107 Feb 24 22:53 shared-union-fields-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1895 Feb 24 22:53 shared-union-fields.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2352 Feb 24 22:53 simplify-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2343 Feb 24 22:53 simplify.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   658 Feb 24 22:53 single-key-object.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   864 Feb 24 22:53 snake-cased-properties-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   635 Feb 24 22:53 snake-cased-properties.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   742 Feb 24 22:53 snake-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   866 Feb 24 22:53 split.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1776 Feb 24 22:53 spread.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   441 Feb 24 22:53 stringified.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   506 Feb 24 22:53 string-key-of.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1121 Feb 24 22:53 string-repeat.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   728 Feb 24 22:53 string-slice.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1956 Feb 24 22:53 structured-cloneable.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1878 Feb 24 22:53 subtract.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1951 Feb 24 22:53 sum.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 10490 Feb 24 22:53 tagged.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1291 Feb 24 22:53 tagged-union.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   554 Feb 24 22:53 trim.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 26466 Feb 24 22:53 tsconfig-json.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1483 Feb 24 22:53 tuple-to-object.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1691 Feb 24 22:53 tuple-to-union.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   380 Feb 24 22:53 typed-array.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2675 Feb 24 22:53 undefined-on-partial-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2053 Feb 24 22:53 union-to-intersection.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1292 Feb 24 22:53 union-to-tuple.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   472 Feb 24 22:53 unknown-array.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   631 Feb 24 22:53 unknown-record.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   852 Feb 24 22:53 value-of.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2771 Feb 24 22:53 words.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  3281 Feb 24 22:53 writable-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  3039 Feb 24 22:53 writable.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   657 Feb 24 22:53 writable-keys-of.d.ts
+
+./node_modules/boxen/node_modules/type-fest/source/internal:
+total 60
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 12288 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  3563 Feb 24 22:53 array.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   746 Feb 24 22:53 characters.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   247 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2669 Feb 24 22:53 keys.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1963 Feb 24 22:53 numeric.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  4626 Feb 24 22:53 object.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  4906 Feb 24 22:53 string.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2424 Feb 24 22:53 tuple.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2519 Feb 24 22:53 type.d.ts
+
+./node_modules/boxen/node_modules/wrap-ansi:
+total 32
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 5 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 1274 Feb 24 22:53 index.d.ts
+-rwxr-xr-x 1 wickedwango wickedwango 6059 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango 1147 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1887 Feb 24 22:53 readme.md
+
+./node_modules/camelcase:
+total 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 2452 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 3568 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango  883 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 3143 Feb 24 22:53 readme.md
+
+./node_modules/chalk:
+total 32
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  1117 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango  1640 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 11696 Feb 24 22:53 readme.md
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 source
+
+./node_modules/chalk/source:
+total 32
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 6918 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 5902 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango  997 Feb 24 22:53 utilities.js
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 vendor
+
+./node_modules/chalk/source/vendor:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 ansi-styles
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 supports-color
+
+./node_modules/chalk/source/vendor/ansi-styles:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 5198 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 5256 Feb 24 22:53 index.js
+
+./node_modules/chalk/source/vendor/supports-color:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango   36 Feb 24 22:53 browser.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  607 Feb 24 22:53 browser.js
+-rw-r--r-- 1 wickedwango wickedwango 1010 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 3865 Feb 24 22:53 index.js
+
+./node_modules/chardet:
+total 36
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 encoding
+-rw-r--r--  1 wickedwango wickedwango 3384 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1059 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango  155 Feb 24 22:53 match.js
+-rw-r--r--  1 wickedwango wickedwango  962 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 1851 Feb 24 22:53 README.md
+-rw-r--r--  1 wickedwango wickedwango   52 Feb 24 22:53 .travis.yml
+
+./node_modules/chardet/encoding:
+total 84
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  4069 Feb 24 22:53 iso2022.js
+-rw-r--r-- 1 wickedwango wickedwango 17001 Feb 24 22:53 mbcs.js
+-rw-r--r-- 1 wickedwango wickedwango 41063 Feb 24 22:53 sbcs.js
+-rw-r--r-- 1 wickedwango wickedwango  3122 Feb 24 22:53 unicode.js
+-rw-r--r-- 1 wickedwango wickedwango  2125 Feb 24 22:53 utf8.js
+
+./node_modules/cli-boxes:
+total 32
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 1388 Feb 24 22:53 boxes.json
+-rw-r--r--  1 wickedwango wickedwango 1731 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango  167 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango  694 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 1519 Feb 24 22:53 readme.md
+
+./node_modules/cliui:
+total 40
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 build
+-rw-r--r--  1 wickedwango wickedwango 4572 Feb 24 22:53 CHANGELOG.md
+-rw-r--r--  1 wickedwango wickedwango  309 Feb 24 22:53 index.mjs
+-rw-r--r--  1 wickedwango wickedwango  731 Feb 24 22:53 LICENSE.txt
+drwxr-xr-x  7 wickedwango wickedwango 4096 Feb 24 22:53 node_modules
+-rw-r--r--  1 wickedwango wickedwango 2023 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 2998 Feb 24 22:53 README.md
+
+./node_modules/cliui/build:
+total 28
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 9953 Feb 24 22:53 index.cjs
+-rw-r--r-- 1 wickedwango wickedwango 1050 Feb 24 22:53 index.d.cts
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 lib
+
+./node_modules/cliui/build/lib:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 9667 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1011 Feb 24 22:53 string-utils.js
+
+./node_modules/cliui/node_modules:
+total 28
+drwxr-xr-x 7 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 ansi-regex
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 emoji-regex
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 string-width
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 strip-ansi
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 wrap-ansi
+
+./node_modules/cliui/node_modules/ansi-regex:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  744 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  350 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  841 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 2565 Feb 24 22:53 readme.md
+
+./node_modules/cliui/node_modules/emoji-regex:
+total 52
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 7 wickedwango wickedwango  4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 es2015
+-rw-r--r-- 1 wickedwango wickedwango   427 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 10286 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango  1077 Feb 24 22:53 LICENSE-MIT.txt
+-rw-r--r-- 1 wickedwango wickedwango  1278 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango  2691 Feb 24 22:53 README.md
+-rw-r--r-- 1 wickedwango wickedwango 10287 Feb 24 22:53 text.js
+
+./node_modules/cliui/node_modules/emoji-regex/es2015:
+total 32
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 11104 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 11105 Feb 24 22:53 text.js
+
+./node_modules/cliui/node_modules/string-width:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  792 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  923 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  941 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1396 Feb 24 22:53 readme.md
+
+./node_modules/cliui/node_modules/strip-ansi:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  369 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  154 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  798 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1599 Feb 24 22:53 readme.md
+
+./node_modules/cliui/node_modules/wrap-ansi:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rwxr-xr-x 1 wickedwango wickedwango 5772 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango 1014 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 2745 Feb 24 22:53 readme.md
+
+./node_modules/cli-width:
+total 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  267 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango  903 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango  757 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango  977 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 1863 Feb 24 22:53 README.md
+
+./node_modules/color-convert:
+total 52
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  1417 Feb 24 22:53 CHANGELOG.md
+-rw-r--r--  1 wickedwango wickedwango 17040 Feb 24 22:53 conversions.js
+-rw-r--r--  1 wickedwango wickedwango  1708 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango  1087 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango   827 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango  2853 Feb 24 22:53 README.md
+-rw-r--r--  1 wickedwango wickedwango  2257 Feb 24 22:53 route.js
+
+./node_modules/color-name:
+total 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 4617 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1085 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango  607 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango  384 Feb 24 22:53 README.md
+
+./node_modules/emoji-regex:
+total 56
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango    81 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 12874 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 12872 Feb 24 22:53 index.mjs
+-rw-r--r--  1 wickedwango wickedwango  1077 Feb 24 22:53 LICENSE-MIT.txt
+-rw-r--r--  1 wickedwango wickedwango  1048 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango  4038 Feb 24 22:53 README.md
+
+./node_modules/escalade:
+total 40
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango  236 Feb 24 22:53 index.d.mts
+-rw-r--r--  1 wickedwango wickedwango  301 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 1104 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango 1461 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 6993 Feb 24 22:53 readme.md
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 sync
+
+./node_modules/escalade/dist:
+total 16
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  534 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango  517 Feb 24 22:53 index.mjs
+
+./node_modules/escalade/sync:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  177 Feb 24 22:53 index.d.mts
+-rw-r--r-- 1 wickedwango wickedwango  242 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  416 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango  404 Feb 24 22:53 index.mjs
+
+./node_modules/external-editor:
+total 36
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 1113 Feb 24 22:53 example_async.js
+-rw-r--r--  1 wickedwango wickedwango 1199 Feb 24 22:53 example_sync.js
+-rw-r--r--  1 wickedwango wickedwango 1080 Feb 24 22:53 LICENSE
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 main
+-rw-r--r--  1 wickedwango wickedwango 1482 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 7235 Feb 24 22:53 README.md
+
+./node_modules/external-editor/main:
+total 24
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 errors
+-rw-r--r-- 1 wickedwango wickedwango 1522 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 7018 Feb 24 22:53 index.js
+
+./node_modules/external-editor/main/errors:
+total 40
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  203 Feb 24 22:53 CreateFileError.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1395 Feb 24 22:53 CreateFileError.js
+-rw-r--r-- 1 wickedwango wickedwango  205 Feb 24 22:53 LaunchEditorError.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1385 Feb 24 22:53 LaunchEditorError.js
+-rw-r--r-- 1 wickedwango wickedwango  201 Feb 24 22:53 ReadFileError.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1370 Feb 24 22:53 ReadFileError.js
+-rw-r--r-- 1 wickedwango wickedwango  203 Feb 24 22:53 RemoveFileError.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1385 Feb 24 22:53 RemoveFileError.js
+
+./node_modules/g:
+total 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:39 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 1450 Feb 24 22:39 index.js
+-rw-r--r--  1 wickedwango wickedwango 1085 Feb 24 22:39 LICENSE
+-rw-r--r--  1 wickedwango wickedwango  312 Feb 24 22:39 package.json
+-rw-r--r--  1 wickedwango wickedwango  549 Feb 24 22:39 README.md
+-rw-r--r--  1 wickedwango wickedwango   86 Feb 24 22:39 test.js
+
+./node_modules/get-caller-file:
+total 32
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango   71 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 1108 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango  773 Feb 24 22:53 index.js.map
+-rw-r--r--  1 wickedwango wickedwango  745 Feb 24 22:53 LICENSE.md
+-rw-r--r--  1 wickedwango wickedwango  954 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 1068 Feb 24 22:53 README.md
+
+./node_modules/get-east-asian-width:
+total 40
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 1542 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango  814 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango 9081 Feb 24 22:53 lookup.js
+-rw-r--r--  1 wickedwango wickedwango 1267 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 1867 Feb 24 22:53 readme.md
+
+./node_modules/iconv-lite:
+total 40
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 4342 Feb 24 22:53 Changelog.md
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 encodings
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 lib
+-rw-r--r--  1 wickedwango wickedwango 1064 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 1227 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 6534 Feb 24 22:53 README.md
+
+./node_modules/iconv-lite/encodings:
+total 124
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 21415 Feb 24 22:53 dbcs-codec.js
+-rw-r--r-- 1 wickedwango wickedwango  8291 Feb 24 22:53 dbcs-data.js
+-rw-r--r-- 1 wickedwango wickedwango   710 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango  6115 Feb 24 22:53 internal.js
+-rw-r--r-- 1 wickedwango wickedwango  2191 Feb 24 22:53 sbcs-codec.js
+-rw-r--r-- 1 wickedwango wickedwango 32034 Feb 24 22:53 sbcs-data-generated.js
+-rw-r--r-- 1 wickedwango wickedwango  4686 Feb 24 22:53 sbcs-data.js
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 tables
+-rw-r--r-- 1 wickedwango wickedwango  5011 Feb 24 22:53 utf16.js
+-rw-r--r-- 1 wickedwango wickedwango  9215 Feb 24 22:53 utf7.js
+
+./node_modules/iconv-lite/encodings/tables:
+total 236
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 17717 Feb 24 22:53 big5-added.json
+-rw-r--r-- 1 wickedwango wickedwango 47320 Feb 24 22:53 cp936.json
+-rw-r--r-- 1 wickedwango wickedwango 38122 Feb 24 22:53 cp949.json
+-rw-r--r-- 1 wickedwango wickedwango 42356 Feb 24 22:53 cp950.json
+-rw-r--r-- 1 wickedwango wickedwango 41064 Feb 24 22:53 eucjp.json
+-rw-r--r-- 1 wickedwango wickedwango  2216 Feb 24 22:53 gb18030-ranges.json
+-rw-r--r-- 1 wickedwango wickedwango  1227 Feb 24 22:53 gbk-added.json
+-rw-r--r-- 1 wickedwango wickedwango 23782 Feb 24 22:53 shiftjis.json
+
+./node_modules/iconv-lite/lib:
+total 40
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 bom-handling.js
+-rw-r--r-- 1 wickedwango wickedwango 8701 Feb 24 22:53 extend-node.js
+-rw-r--r-- 1 wickedwango wickedwango  982 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 5123 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 3387 Feb 24 22:53 streams.js
+
+./node_modules/@inquirer:
+total 64
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 checkbox
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 confirm
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 core
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 editor
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 expand
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 figures
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 input
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 number
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 password
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 prompts
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 rawlist
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 search
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 select
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 type
+
+./node_modules/@inquirer/checkbox:
+total 28
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 2279 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 6814 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/checkbox/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/checkbox/dist/commonjs:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 1706 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 8250 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/checkbox/dist/esm:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 1706 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 7613 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/confirm:
+total 24
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 2177 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 2078 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/confirm/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/confirm/dist/commonjs:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  350 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1734 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/confirm/dist/esm:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  350 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1633 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/core:
+total 32
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango  4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango  4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango  1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango  2452 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 11404 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/core/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/core/dist/commonjs:
+total 24
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  622 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2860 Feb 24 22:53 index.js
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 lib
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/core/dist/commonjs/lib:
+total 148
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  317 Feb 24 22:53 create-prompt.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 6892 Feb 24 22:53 create-prompt.js
+-rw-r--r-- 1 wickedwango wickedwango  465 Feb 24 22:53 errors.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  925 Feb 24 22:53 errors.js
+-rw-r--r-- 1 wickedwango wickedwango  926 Feb 24 22:53 hook-engine.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 3590 Feb 24 22:53 hook-engine.js
+-rw-r--r-- 1 wickedwango wickedwango  467 Feb 24 22:53 key.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  996 Feb 24 22:53 key.js
+-rw-r--r-- 1 wickedwango wickedwango  272 Feb 24 22:53 make-theme.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1028 Feb 24 22:53 make-theme.js
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 pagination
+-rw-r--r-- 1 wickedwango wickedwango  210 Feb 24 22:53 promise-polyfill.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  678 Feb 24 22:53 promise-polyfill.js
+-rw-r--r-- 1 wickedwango wickedwango  432 Feb 24 22:53 screen-manager.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 3939 Feb 24 22:53 screen-manager.js
+-rw-r--r-- 1 wickedwango wickedwango  267 Feb 24 22:53 Separator.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  925 Feb 24 22:53 Separator.js
+-rw-r--r-- 1 wickedwango wickedwango 4912 Feb 24 22:53 theme.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1229 Feb 24 22:53 theme.js
+-rw-r--r-- 1 wickedwango wickedwango  182 Feb 24 22:53 use-effect.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  532 Feb 24 22:53 use-effect.js
+-rw-r--r-- 1 wickedwango wickedwango  229 Feb 24 22:53 use-keypress.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  823 Feb 24 22:53 use-keypress.js
+-rw-r--r-- 1 wickedwango wickedwango  102 Feb 24 22:53 use-memo.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  606 Feb 24 22:53 use-memo.js
+-rw-r--r-- 1 wickedwango wickedwango  157 Feb 24 22:53 use-prefix.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1695 Feb 24 22:53 use-prefix.js
+-rw-r--r-- 1 wickedwango wickedwango  165 Feb 24 22:53 use-ref.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  239 Feb 24 22:53 use-ref.js
+-rw-r--r-- 1 wickedwango wickedwango  352 Feb 24 22:53 use-state.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  792 Feb 24 22:53 use-state.js
+-rw-r--r-- 1 wickedwango wickedwango  442 Feb 24 22:53 utils.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1168 Feb 24 22:53 utils.js
+
+./node_modules/@inquirer/core/dist/commonjs/lib/pagination:
+total 32
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 1069 Feb 24 22:53 lines.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2633 Feb 24 22:53 lines.js
+-rw-r--r-- 1 wickedwango wickedwango  597 Feb 24 22:53 position.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1102 Feb 24 22:53 position.js
+-rw-r--r-- 1 wickedwango wickedwango  600 Feb 24 22:53 use-pagination.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1093 Feb 24 22:53 use-pagination.js
+
+./node_modules/@inquirer/core/dist/esm:
+total 24
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  622 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  569 Feb 24 22:53 index.js
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 lib
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/core/dist/esm/lib:
+total 148
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  317 Feb 24 22:53 create-prompt.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 5059 Feb 24 22:53 create-prompt.js
+-rw-r--r-- 1 wickedwango wickedwango  465 Feb 24 22:53 errors.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  539 Feb 24 22:53 errors.js
+-rw-r--r-- 1 wickedwango wickedwango  926 Feb 24 22:53 hook-engine.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 3317 Feb 24 22:53 hook-engine.js
+-rw-r--r-- 1 wickedwango wickedwango  467 Feb 24 22:53 key.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  626 Feb 24 22:53 key.js
+-rw-r--r-- 1 wickedwango wickedwango  272 Feb 24 22:53 make-theme.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  917 Feb 24 22:53 make-theme.js
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 pagination
+-rw-r--r-- 1 wickedwango wickedwango  210 Feb 24 22:53 promise-polyfill.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  531 Feb 24 22:53 promise-polyfill.js
+-rw-r--r-- 1 wickedwango wickedwango  432 Feb 24 22:53 screen-manager.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 3564 Feb 24 22:53 screen-manager.js
+-rw-r--r-- 1 wickedwango wickedwango  267 Feb 24 22:53 Separator.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  571 Feb 24 22:53 Separator.js
+-rw-r--r-- 1 wickedwango wickedwango 4912 Feb 24 22:53 theme.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  711 Feb 24 22:53 theme.js
+-rw-r--r-- 1 wickedwango wickedwango  182 Feb 24 22:53 use-effect.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  403 Feb 24 22:53 use-effect.js
+-rw-r--r-- 1 wickedwango wickedwango  229 Feb 24 22:53 use-keypress.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  637 Feb 24 22:53 use-keypress.js
+-rw-r--r-- 1 wickedwango wickedwango  102 Feb 24 22:53 use-memo.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  481 Feb 24 22:53 use-memo.js
+-rw-r--r-- 1 wickedwango wickedwango  157 Feb 24 22:53 use-prefix.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1447 Feb 24 22:53 use-prefix.js
+-rw-r--r-- 1 wickedwango wickedwango  165 Feb 24 22:53 use-ref.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  117 Feb 24 22:53 use-ref.js
+-rw-r--r-- 1 wickedwango wickedwango  352 Feb 24 22:53 use-state.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  657 Feb 24 22:53 use-state.js
+-rw-r--r-- 1 wickedwango wickedwango  442 Feb 24 22:53 utils.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  781 Feb 24 22:53 utils.js
+
+./node_modules/@inquirer/core/dist/esm/lib/pagination:
+total 32
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 1069 Feb 24 22:53 lines.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2523 Feb 24 22:53 lines.js
+-rw-r--r-- 1 wickedwango wickedwango  597 Feb 24 22:53 position.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  985 Feb 24 22:53 position.js
+-rw-r--r-- 1 wickedwango wickedwango  600 Feb 24 22:53 use-pagination.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  887 Feb 24 22:53 use-pagination.js
+
+./node_modules/@inquirer/editor:
+total 28
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 2217 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 5080 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/editor/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/editor/dist/commonjs:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  588 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2941 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/editor/dist/esm:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  588 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2770 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/expand:
+total 24
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 2209 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 3817 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/expand/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/expand/dist/commonjs:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  902 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 4534 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/expand/dist/esm:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  902 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 4027 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/figures:
+total 20
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 1829 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/figures/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/figures/dist/commonjs:
+total 40
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 13915 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  9756 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango    25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/figures/dist/esm:
+total 40
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 13915 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  9229 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango    23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/input:
+total 28
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 2176 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 4225 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/input/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/input/dist/commonjs:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  575 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2953 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/input/dist/esm:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  575 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2832 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/number:
+total 28
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 2174 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 4947 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/number/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/number/dist/commonjs:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  491 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 3794 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/number/dist/esm:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  491 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 3673 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/password:
+total 24
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 2210 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 3329 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/password/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/password/dist/commonjs:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  391 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2379 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/password/dist/esm:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  391 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2091 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/prompts:
+total 36
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango  4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango  4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango  1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango  2458 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 15748 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/prompts/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/prompts/dist/commonjs:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  561 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2277 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/prompts/dist/esm:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  561 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  561 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/rawlist:
+total 24
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 2210 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 2974 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/rawlist/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/rawlist/dist/commonjs:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  567 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 3487 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/rawlist/dist/esm:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  567 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 3032 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/search:
+total 28
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 2243 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 6783 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/search/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/search/dist/commonjs:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 1199 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 7624 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/search/dist/esm:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 1199 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 7071 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/select:
+total 28
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 2278 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 5033 Feb 24 22:53 README.md
+
+./node_modules/@inquirer/select/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/select/dist/commonjs:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  950 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 6429 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/select/dist/esm:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  950 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 5827 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/type:
+total 20
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 16 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango 1058 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 1935 Feb 24 22:53 package.json
+
+./node_modules/@inquirer/type/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 commonjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 esm
+
+./node_modules/@inquirer/type/dist/commonjs:
+total 36
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango   59 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  852 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1493 Feb 24 22:53 inquirer.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   77 Feb 24 22:53 inquirer.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1003 Feb 24 22:53 utils.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  133 Feb 24 22:53 utils.js
+
+./node_modules/@inquirer/type/dist/esm:
+total 36
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango   59 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   59 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1493 Feb 24 22:53 inquirer.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   11 Feb 24 22:53 inquirer.js
+-rw-r--r-- 1 wickedwango wickedwango   23 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1003 Feb 24 22:53 utils.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   67 Feb 24 22:53 utils.js
+
+./node_modules/is-fullwidth-code-point:
+total 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  549 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 1756 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango  737 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango  843 Feb 24 22:53 readme.md
+
+./node_modules/mute-stream:
+total 24
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 lib
+-rw-r--r--  1 wickedwango wickedwango  765 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 1231 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 1661 Feb 24 22:53 README.md
+
+./node_modules/mute-stream/lib:
+total 12
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 2841 Feb 24 22:53 index.js
+
+./node_modules/os-tmpdir:
+total 24
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  572 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1119 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango  672 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango  693 Feb 24 22:53 readme.md
+
+./node_modules/require-directory:
+total 40
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 2867 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1853 Feb 24 22:53 .jshintrc
+-rw-r--r--  1 wickedwango wickedwango 1099 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango    8 Feb 24 22:53 .npmignore
+-rw-r--r--  1 wickedwango wickedwango 1033 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 5175 Feb 24 22:53 README.markdown
+-rw-r--r--  1 wickedwango wickedwango   36 Feb 24 22:53 .travis.yml
+
+./node_modules/safer-buffer:
+total 68
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  1483 Feb 24 22:53 dangerous.js
+-rw-r--r--  1 wickedwango wickedwango  1094 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango   822 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 12794 Feb 24 22:53 Porting-Buffer.md
+-rw-r--r--  1 wickedwango wickedwango  8261 Feb 24 22:53 Readme.md
+-rw-r--r--  1 wickedwango wickedwango  2110 Feb 24 22:53 safer.js
+-rw-r--r--  1 wickedwango wickedwango 15735 Feb 24 22:53 tests.js
+
+./node_modules/signal-exit:
+total 24
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  4 wickedwango wickedwango 4096 Feb 24 22:53 dist
+-rw-r--r--  1 wickedwango wickedwango  790 Feb 24 22:53 LICENSE.txt
+-rw-r--r--  1 wickedwango wickedwango 2573 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 2426 Feb 24 22:53 README.md
+
+./node_modules/signal-exit/dist:
+total 16
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 cjs
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 mjs
+
+./node_modules/signal-exit/dist/cjs:
+total 84
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango   393 Feb 24 22:53 browser.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   349 Feb 24 22:53 browser.d.ts.map
+-rw-r--r-- 1 wickedwango wickedwango   322 Feb 24 22:53 browser.js
+-rw-r--r-- 1 wickedwango wickedwango   703 Feb 24 22:53 browser.js.map
+-rw-r--r-- 1 wickedwango wickedwango  1744 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   460 Feb 24 22:53 index.d.ts.map
+-rw-r--r-- 1 wickedwango wickedwango  9435 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 17544 Feb 24 22:53 index.js.map
+-rw-r--r-- 1 wickedwango wickedwango    25 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango  1083 Feb 24 22:53 signals.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   196 Feb 24 22:53 signals.d.ts.map
+-rw-r--r-- 1 wickedwango wickedwango  1560 Feb 24 22:53 signals.js
+-rw-r--r-- 1 wickedwango wickedwango  2091 Feb 24 22:53 signals.js.map
+
+./node_modules/signal-exit/dist/mjs:
+total 84
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango   393 Feb 24 22:53 browser.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   349 Feb 24 22:53 browser.d.ts.map
+-rw-r--r-- 1 wickedwango wickedwango   138 Feb 24 22:53 browser.js
+-rw-r--r-- 1 wickedwango wickedwango   668 Feb 24 22:53 browser.js.map
+-rw-r--r-- 1 wickedwango wickedwango  1744 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   460 Feb 24 22:53 index.d.ts.map
+-rw-r--r-- 1 wickedwango wickedwango  9090 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 17592 Feb 24 22:53 index.js.map
+-rw-r--r-- 1 wickedwango wickedwango    23 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango  1083 Feb 24 22:53 signals.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   196 Feb 24 22:53 signals.d.ts.map
+-rw-r--r-- 1 wickedwango wickedwango  1438 Feb 24 22:53 signals.js
+-rw-r--r-- 1 wickedwango wickedwango  2098 Feb 24 22:53 signals.js.map
+
+./node_modules/string-width:
+total 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 1345 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 2231 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango 1140 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 1940 Feb 24 22:53 readme.md
+
+./node_modules/strip-ansi:
+total 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  349 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango  468 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango  914 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 1473 Feb 24 22:53 readme.md
+
+./node_modules/tmp:
+total 32
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 lib
+-rw-r--r--  1 wickedwango wickedwango 1082 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango  751 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 9293 Feb 24 22:53 README.md
+
+./node_modules/tmp/lib:
+total 24
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 14895 Feb 24 22:53 tmp.js
+
+./node_modules/type-fest:
+total 68
+drwxr-xr-x  4 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  1762 Feb 24 22:53 base.d.ts
+-rw-r--r--  1 wickedwango wickedwango   115 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1116 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango  1042 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 33827 Feb 24 22:53 readme.md
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 source
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:53 ts41
+
+./node_modules/type-fest/source:
+total 168
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  1214 Feb 24 22:53 asyncify.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   715 Feb 24 22:53 async-return-type.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1663 Feb 24 22:53 basic.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1012 Feb 24 22:53 conditional-except.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1199 Feb 24 22:53 conditional-keys.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   933 Feb 24 22:53 conditional-pick.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2482 Feb 24 22:53 entries.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2766 Feb 24 22:53 entry.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   886 Feb 24 22:53 except.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1480 Feb 24 22:53 fixed-length-array.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1282 Feb 24 22:53 iterable-element.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1135 Feb 24 22:53 literal-union.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   531 Feb 24 22:53 merge.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1340 Feb 24 22:53 merge-exclusive.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1800 Feb 24 22:53 mutable.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2676 Feb 24 22:53 opaque.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 14074 Feb 24 22:53 package-json.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  2312 Feb 24 22:53 partial-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   775 Feb 24 22:53 promisable.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1050 Feb 24 22:53 promise-value.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1828 Feb 24 22:53 readonly-deep.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   848 Feb 24 22:53 require-at-least-one.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1255 Feb 24 22:53 require-exactly-one.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   911 Feb 24 22:53 set-optional.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   914 Feb 24 22:53 set-required.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1698 Feb 24 22:53 set-return-type.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   133 Feb 24 22:53 simplify.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   416 Feb 24 22:53 stringified.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 16837 Feb 24 22:53 tsconfig-json.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   363 Feb 24 22:53 typed-array.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1961 Feb 24 22:53 union-to-intersection.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   322 Feb 24 22:53 utilities.d.ts
+-rw-r--r-- 1 wickedwango wickedwango   829 Feb 24 22:53 value-of.d.ts
+
+./node_modules/type-fest/ts41:
+total 44
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 1810 Feb 24 22:53 camel-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 2846 Feb 24 22:53 delimiter-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 4179 Feb 24 22:53 get.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  419 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  686 Feb 24 22:53 kebab-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  608 Feb 24 22:53 pascal-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  672 Feb 24 22:53 snake-case.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  331 Feb 24 22:53 utilities.d.ts
+
+./node_modules/@types:
+total 20
+drwxr-xr-x  5 wickedwango wickedwango 4096 Feb 24 22:56 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 10 wickedwango wickedwango 4096 Feb 24 22:29 node
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:56 yargs
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:56 yargs-parser
+
+./node_modules/@types/node:
+total 2256
+drwxr-xr-x 10 wickedwango wickedwango   4096 Feb 24 22:29 .
+drwxr-xr-x  5 wickedwango wickedwango   4096 Feb 24 22:56 ..
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:29 assert
+-rw-r--r--  1 wickedwango wickedwango  46299 Feb 24 22:29 assert.d.ts
+-rw-r--r--  1 wickedwango wickedwango  23285 Feb 24 22:29 async_hooks.d.ts
+-rw-r--r--  1 wickedwango wickedwango  18876 Feb 24 22:29 buffer.buffer.d.ts
+-rw-r--r--  1 wickedwango wickedwango  87937 Feb 24 22:29 buffer.d.ts
+-rw-r--r--  1 wickedwango wickedwango  69757 Feb 24 22:29 child_process.d.ts
+-rw-r--r--  1 wickedwango wickedwango  28016 Feb 24 22:29 cluster.d.ts
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:29 compatibility
+-rw-r--r--  1 wickedwango wickedwango  21249 Feb 24 22:29 console.d.ts
+-rw-r--r--  1 wickedwango wickedwango    623 Feb 24 22:29 constants.d.ts
+-rw-r--r--  1 wickedwango wickedwango 188825 Feb 24 22:29 crypto.d.ts
+-rw-r--r--  1 wickedwango wickedwango  27991 Feb 24 22:29 dgram.d.ts
+-rw-r--r--  1 wickedwango wickedwango  24043 Feb 24 22:29 diagnostics_channel.d.ts
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:29 dns
+-rw-r--r--  1 wickedwango wickedwango  35538 Feb 24 22:29 dns.d.ts
+-rw-r--r--  1 wickedwango wickedwango   7812 Feb 24 22:29 domain.d.ts
+-rw-r--r--  1 wickedwango wickedwango   5871 Feb 24 22:29 dom-events.d.ts
+-rw-r--r--  1 wickedwango wickedwango  43169 Feb 24 22:29 events.d.ts
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:29 fs
+-rw-r--r--  1 wickedwango wickedwango 185199 Feb 24 22:29 fs.d.ts
+-rw-r--r--  1 wickedwango wickedwango  19123 Feb 24 22:29 globals.d.ts
+-rw-r--r--  1 wickedwango wickedwango    777 Feb 24 22:29 globals.typedarray.d.ts
+-rw-r--r--  1 wickedwango wickedwango 125692 Feb 24 22:29 http2.d.ts
+-rw-r--r--  1 wickedwango wickedwango  87270 Feb 24 22:29 http.d.ts
+-rw-r--r--  1 wickedwango wickedwango  24727 Feb 24 22:29 https.d.ts
+-rw-r--r--  1 wickedwango wickedwango   3868 Feb 24 22:29 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 197531 Feb 24 22:29 inspector.d.ts
+-rw-r--r--  1 wickedwango wickedwango   1141 Feb 24 22:29 LICENSE
+-rw-r--r--  1 wickedwango wickedwango  32042 Feb 24 22:29 module.d.ts
+-rw-r--r--  1 wickedwango wickedwango  47540 Feb 24 22:29 net.d.ts
+-rw-r--r--  1 wickedwango wickedwango  18956 Feb 24 22:29 os.d.ts
+-rw-r--r--  1 wickedwango wickedwango   6525 Feb 24 22:29 package.json
+-rw-r--r--  1 wickedwango wickedwango   8235 Feb 24 22:29 path.d.ts
+-rw-r--r--  1 wickedwango wickedwango  38574 Feb 24 22:29 perf_hooks.d.ts
+-rw-r--r--  1 wickedwango wickedwango 102454 Feb 24 22:29 process.d.ts
+-rw-r--r--  1 wickedwango wickedwango   5479 Feb 24 22:29 punycode.d.ts
+-rw-r--r--  1 wickedwango wickedwango   7137 Feb 24 22:29 querystring.d.ts
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:29 readline
+-rw-r--r--  1 wickedwango wickedwango  25736 Feb 24 22:29 readline.d.ts
+-rw-r--r--  1 wickedwango wickedwango   2243 Feb 24 22:29 README.md
+-rw-r--r--  1 wickedwango wickedwango  19507 Feb 24 22:29 repl.d.ts
+-rw-r--r--  1 wickedwango wickedwango   6195 Feb 24 22:29 sea.d.ts
+-rw-r--r--  1 wickedwango wickedwango  21606 Feb 24 22:29 sqlite.d.ts
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:29 stream
+-rw-r--r--  1 wickedwango wickedwango  84613 Feb 24 22:29 stream.d.ts
+-rw-r--r--  1 wickedwango wickedwango   2827 Feb 24 22:29 string_decoder.d.ts
+-rw-r--r--  1 wickedwango wickedwango  87491 Feb 24 22:29 test.d.ts
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:29 timers
+-rw-r--r--  1 wickedwango wickedwango  12272 Feb 24 22:29 timers.d.ts
+-rw-r--r--  1 wickedwango wickedwango  57565 Feb 24 22:29 tls.d.ts
+-rw-r--r--  1 wickedwango wickedwango   8926 Feb 24 22:29 trace_events.d.ts
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:29 ts5.6
+-rw-r--r--  1 wickedwango wickedwango  10053 Feb 24 22:29 tty.d.ts
+-rw-r--r--  1 wickedwango wickedwango  42696 Feb 24 22:29 url.d.ts
+-rw-r--r--  1 wickedwango wickedwango  94074 Feb 24 22:29 util.d.ts
+-rw-r--r--  1 wickedwango wickedwango  34772 Feb 24 22:29 v8.d.ts
+-rw-r--r--  1 wickedwango wickedwango  43724 Feb 24 22:29 vm.d.ts
+-rw-r--r--  1 wickedwango wickedwango   7935 Feb 24 22:29 wasi.d.ts
+-rw-r--r--  1 wickedwango wickedwango  36430 Feb 24 22:29 worker_threads.d.ts
+-rw-r--r--  1 wickedwango wickedwango  20640 Feb 24 22:29 zlib.d.ts
+
+./node_modules/@types/node/assert:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:29 .
+drwxr-xr-x 10 wickedwango wickedwango 4096 Feb 24 22:29 ..
+-rw-r--r--  1 wickedwango wickedwango  201 Feb 24 22:29 strict.d.ts
+
+./node_modules/@types/node/compatibility:
+total 24
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:29 .
+drwxr-xr-x 10 wickedwango wickedwango 4096 Feb 24 22:29 ..
+-rw-r--r--  1 wickedwango wickedwango  473 Feb 24 22:29 disposable.d.ts
+-rw-r--r--  1 wickedwango wickedwango 1195 Feb 24 22:29 indexable.d.ts
+-rw-r--r--  1 wickedwango wickedwango  533 Feb 24 22:29 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 1303 Feb 24 22:29 iterators.d.ts
+
+./node_modules/@types/node/dns:
+total 32
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:29 .
+drwxr-xr-x 10 wickedwango wickedwango  4096 Feb 24 22:29 ..
+-rw-r--r--  1 wickedwango wickedwango 20582 Feb 24 22:29 promises.d.ts
+
+./node_modules/@types/node/fs:
+total 64
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:29 .
+drwxr-xr-x 10 wickedwango wickedwango  4096 Feb 24 22:29 ..
+-rw-r--r--  1 wickedwango wickedwango 55651 Feb 24 22:29 promises.d.ts
+
+./node_modules/@types/node/readline:
+total 16
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:29 .
+drwxr-xr-x 10 wickedwango wickedwango 4096 Feb 24 22:29 ..
+-rw-r--r--  1 wickedwango wickedwango 6444 Feb 24 22:29 promises.d.ts
+
+./node_modules/@types/node/stream:
+total 48
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:29 .
+drwxr-xr-x 10 wickedwango wickedwango  4096 Feb 24 22:29 ..
+-rw-r--r--  1 wickedwango wickedwango   727 Feb 24 22:29 consumers.d.ts
+-rw-r--r--  1 wickedwango wickedwango  2971 Feb 24 22:29 promises.d.ts
+-rw-r--r--  1 wickedwango wickedwango 29492 Feb 24 22:29 web.d.ts
+
+./node_modules/@types/node/timers:
+total 12
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:29 .
+drwxr-xr-x 10 wickedwango wickedwango 4096 Feb 24 22:29 ..
+-rw-r--r--  1 wickedwango wickedwango 3497 Feb 24 22:29 promises.d.ts
+
+./node_modules/@types/node/ts5.6:
+total 36
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:29 .
+drwxr-xr-x 10 wickedwango wickedwango  4096 Feb 24 22:29 ..
+-rw-r--r--  1 wickedwango wickedwango 18388 Feb 24 22:29 buffer.buffer.d.ts
+-rw-r--r--  1 wickedwango wickedwango   457 Feb 24 22:29 globals.typedarray.d.ts
+-rw-r--r--  1 wickedwango wickedwango  4062 Feb 24 22:29 index.d.ts
+
+./node_modules/@types/yargs:
+total 92
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:56 .
+drwxr-xr-x 5 wickedwango wickedwango  4096 Feb 24 22:56 ..
+-rw-r--r-- 1 wickedwango wickedwango    30 Feb 24 22:56 helpers.d.mts
+-rw-r--r-- 1 wickedwango wickedwango   227 Feb 24 22:56 helpers.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1027 Feb 24 22:56 index.d.mts
+-rw-r--r-- 1 wickedwango wickedwango 54369 Feb 24 22:56 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  1141 Feb 24 22:56 LICENSE
+-rw-r--r-- 1 wickedwango wickedwango  2521 Feb 24 22:56 package.json
+-rw-r--r-- 1 wickedwango wickedwango   916 Feb 24 22:56 README.md
+-rw-r--r-- 1 wickedwango wickedwango   174 Feb 24 22:56 yargs.d.ts
+
+./node_modules/@types/yargs-parser:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:56 .
+drwxr-xr-x 5 wickedwango wickedwango 4096 Feb 24 22:56 ..
+-rw-r--r-- 1 wickedwango wickedwango 6215 Feb 24 22:56 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 1141 Feb 24 22:56 LICENSE
+-rw-r--r-- 1 wickedwango wickedwango  804 Feb 24 22:56 package.json
+-rw-r--r-- 1 wickedwango wickedwango  489 Feb 24 22:56 README.md
+
+./node_modules/typescript:
+total 80
+drwxr-xr-x  4 wickedwango wickedwango  4096 Feb 24 22:04 .
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 ..
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:04 bin
+drwxr-xr-x 15 wickedwango wickedwango  4096 Feb 24 22:04 lib
+-rw-r--r--  1 wickedwango wickedwango  9197 Feb 24 22:04 LICENSE.txt
+-rw-r--r--  1 wickedwango wickedwango  3609 Feb 24 22:04 package.json
+-rw-r--r--  1 wickedwango wickedwango  2848 Feb 24 22:04 README.md
+-rw-r--r--  1 wickedwango wickedwango  2656 Feb 24 22:04 SECURITY.md
+-rw-r--r--  1 wickedwango wickedwango 37824 Feb 24 22:04 ThirdPartyNoticeText.txt
+
+./node_modules/typescript/bin:
+total 16
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:04 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:04 ..
+-rwxr-xr-x 1 wickedwango wickedwango   45 Feb 24 22:04 tsc
+-rwxr-xr-x 1 wickedwango wickedwango   50 Feb 24 22:04 tsserver
+
+./node_modules/typescript/lib:
+total 18164
+drwxr-xr-x 15 wickedwango wickedwango    4096 Feb 24 22:04 .
+drwxr-xr-x  4 wickedwango wickedwango    4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango    3714 Feb 24 22:04 cancellationToken.js
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 cs
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 de
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 es
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 fr
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 it
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 ja
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 ko
+-rw-r--r--  1 wickedwango wickedwango   13192 Feb 24 22:04 lib.decorators.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1326 Feb 24 22:04 lib.decorators.legacy.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1887 Feb 24 22:04 lib.dom.asynciterable.d.ts
+-rw-r--r--  1 wickedwango wickedwango 1346247 Feb 24 22:04 lib.dom.d.ts
+-rw-r--r--  1 wickedwango wickedwango   26225 Feb 24 22:04 lib.dom.iterable.d.ts
+-rw-r--r--  1 wickedwango wickedwango     992 Feb 24 22:04 lib.d.ts
+-rw-r--r--  1 wickedwango wickedwango    5229 Feb 24 22:04 lib.es2015.collection.d.ts
+-rw-r--r--  1 wickedwango wickedwango   22866 Feb 24 22:04 lib.es2015.core.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1241 Feb 24 22:04 lib.es2015.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2557 Feb 24 22:04 lib.es2015.generator.d.ts
+-rw-r--r--  1 wickedwango wickedwango   19733 Feb 24 22:04 lib.es2015.iterable.d.ts
+-rw-r--r--  1 wickedwango wickedwango    3200 Feb 24 22:04 lib.es2015.promise.d.ts
+-rw-r--r--  1 wickedwango wickedwango    5251 Feb 24 22:04 lib.es2015.proxy.d.ts
+-rw-r--r--  1 wickedwango wickedwango    6493 Feb 24 22:04 lib.es2015.reflect.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1649 Feb 24 22:04 lib.es2015.symbol.d.ts
+-rw-r--r--  1 wickedwango wickedwango   11003 Feb 24 22:04 lib.es2015.symbol.wellknown.d.ts
+-rw-r--r--  1 wickedwango wickedwango    5204 Feb 24 22:04 lib.es2016.array.include.d.ts
+-rw-r--r--  1 wickedwango wickedwango     965 Feb 24 22:04 lib.es2016.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1032 Feb 24 22:04 lib.es2016.full.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1484 Feb 24 22:04 lib.es2016.intl.d.ts
+-rw-r--r--  1 wickedwango wickedwango     915 Feb 24 22:04 lib.es2017.arraybuffer.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1916 Feb 24 22:04 lib.es2017.date.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1162 Feb 24 22:04 lib.es2017.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1032 Feb 24 22:04 lib.es2017.full.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1449 Feb 24 22:04 lib.es2017.intl.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2473 Feb 24 22:04 lib.es2017.object.d.ts
+-rw-r--r--  1 wickedwango wickedwango    7198 Feb 24 22:04 lib.es2017.sharedmemory.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2378 Feb 24 22:04 lib.es2017.string.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1542 Feb 24 22:04 lib.es2017.typedarrays.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2692 Feb 24 22:04 lib.es2018.asyncgenerator.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2257 Feb 24 22:04 lib.es2018.asynciterable.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1088 Feb 24 22:04 lib.es2018.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1074 Feb 24 22:04 lib.es2018.full.d.ts
+-rw-r--r--  1 wickedwango wickedwango    3021 Feb 24 22:04 lib.es2018.intl.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1353 Feb 24 22:04 lib.es2018.promise.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1232 Feb 24 22:04 lib.es2018.regexp.d.ts
+-rw-r--r--  1 wickedwango wickedwango    3163 Feb 24 22:04 lib.es2019.array.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1071 Feb 24 22:04 lib.es2019.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1074 Feb 24 22:04 lib.es2019.full.d.ts
+-rw-r--r--  1 wickedwango wickedwango     958 Feb 24 22:04 lib.es2019.intl.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1473 Feb 24 22:04 lib.es2019.object.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1528 Feb 24 22:04 lib.es2019.string.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1006 Feb 24 22:04 lib.es2019.symbol.d.ts
+-rw-r--r--  1 wickedwango wickedwango   36758 Feb 24 22:04 lib.es2020.bigint.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2956 Feb 24 22:04 lib.es2020.date.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1201 Feb 24 22:04 lib.es2020.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1074 Feb 24 22:04 lib.es2020.full.d.ts
+-rw-r--r--  1 wickedwango wickedwango   22438 Feb 24 22:04 lib.es2020.intl.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1587 Feb 24 22:04 lib.es2020.number.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1803 Feb 24 22:04 lib.es2020.promise.d.ts
+-rw-r--r--  1 wickedwango wickedwango    5128 Feb 24 22:04 lib.es2020.sharedmemory.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2556 Feb 24 22:04 lib.es2020.string.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1606 Feb 24 22:04 lib.es2020.symbol.wellknown.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1036 Feb 24 22:04 lib.es2021.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1074 Feb 24 22:04 lib.es2021.full.d.ts
+-rw-r--r--  1 wickedwango wickedwango    8245 Feb 24 22:04 lib.es2021.intl.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2262 Feb 24 22:04 lib.es2021.promise.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1592 Feb 24 22:04 lib.es2021.string.d.ts
+-rw-r--r--  1 wickedwango wickedwango    3171 Feb 24 22:04 lib.es2021.weakref.d.ts
+-rw-r--r--  1 wickedwango wickedwango    4676 Feb 24 22:04 lib.es2022.array.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1108 Feb 24 22:04 lib.es2022.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2379 Feb 24 22:04 lib.es2022.error.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1074 Feb 24 22:04 lib.es2022.full.d.ts
+-rw-r--r--  1 wickedwango wickedwango    6163 Feb 24 22:04 lib.es2022.intl.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1085 Feb 24 22:04 lib.es2022.object.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1331 Feb 24 22:04 lib.es2022.regexp.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1155 Feb 24 22:04 lib.es2022.string.d.ts
+-rw-r--r--  1 wickedwango wickedwango   40410 Feb 24 22:04 lib.es2023.array.d.ts
+-rw-r--r--  1 wickedwango wickedwango     900 Feb 24 22:04 lib.es2023.collection.d.ts
+-rw-r--r--  1 wickedwango wickedwango     999 Feb 24 22:04 lib.es2023.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1074 Feb 24 22:04 lib.es2023.full.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2645 Feb 24 22:04 lib.es2023.intl.d.ts
+-rw-r--r--  1 wickedwango wickedwango    2637 Feb 24 22:04 lib.es2024.arraybuffer.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1224 Feb 24 22:04 lib.es2024.collection.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1166 Feb 24 22:04 lib.es2024.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1074 Feb 24 22:04 lib.es2024.full.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1259 Feb 24 22:04 lib.es2024.object.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1389 Feb 24 22:04 lib.es2024.promise.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1073 Feb 24 22:04 lib.es2024.regexp.d.ts
+-rw-r--r--  1 wickedwango wickedwango    3077 Feb 24 22:04 lib.es2024.sharedmemory.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1194 Feb 24 22:04 lib.es2024.string.d.ts
+-rw-r--r--  1 wickedwango wickedwango  217027 Feb 24 22:04 lib.es5.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1032 Feb 24 22:04 lib.es6.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1791 Feb 24 22:04 lib.esnext.array.d.ts
+-rw-r--r--  1 wickedwango wickedwango    3878 Feb 24 22:04 lib.esnext.collection.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1070 Feb 24 22:04 lib.esnext.decorators.d.ts
+-rw-r--r--  1 wickedwango wickedwango    6806 Feb 24 22:04 lib.esnext.disposable.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1123 Feb 24 22:04 lib.esnext.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1074 Feb 24 22:04 lib.esnext.full.d.ts
+-rw-r--r--  1 wickedwango wickedwango     893 Feb 24 22:04 lib.esnext.intl.d.ts
+-rw-r--r--  1 wickedwango wickedwango    8677 Feb 24 22:04 lib.esnext.iterator.d.ts
+-rw-r--r--  1 wickedwango wickedwango    9451 Feb 24 22:04 lib.scripthost.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1887 Feb 24 22:04 lib.webworker.asynciterable.d.ts
+-rw-r--r--  1 wickedwango wickedwango  459680 Feb 24 22:04 lib.webworker.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1041 Feb 24 22:04 lib.webworker.importscripts.d.ts
+-rw-r--r--  1 wickedwango wickedwango   20517 Feb 24 22:04 lib.webworker.iterable.d.ts
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 pl
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 pt-br
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 ru
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 tr
+-rw-r--r--  1 wickedwango wickedwango 6151909 Feb 24 22:04 _tsc.js
+-rw-r--r--  1 wickedwango wickedwango     267 Feb 24 22:04 tsc.js
+-rw-r--r--  1 wickedwango wickedwango   26562 Feb 24 22:04 _tsserver.js
+-rw-r--r--  1 wickedwango wickedwango     272 Feb 24 22:04 tsserver.js
+-rw-r--r--  1 wickedwango wickedwango     865 Feb 24 22:04 tsserverlibrary.d.ts
+-rw-r--r--  1 wickedwango wickedwango    1012 Feb 24 22:04 tsserverlibrary.js
+-rw-r--r--  1 wickedwango wickedwango  585628 Feb 24 22:04 typescript.d.ts
+-rw-r--r--  1 wickedwango wickedwango 9044103 Feb 24 22:04 typescript.js
+-rw-r--r--  1 wickedwango wickedwango   16788 Feb 24 22:04 typesMap.json
+-rw-r--r--  1 wickedwango wickedwango   10363 Feb 24 22:04 _typingsInstaller.js
+-rw-r--r--  1 wickedwango wickedwango     280 Feb 24 22:04 typingsInstaller.js
+-rw-r--r--  1 wickedwango wickedwango    2313 Feb 24 22:04 watchGuard.js
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 zh-cn
+drwxr-xr-x  2 wickedwango wickedwango    4096 Feb 24 22:04 zh-tw
+
+./node_modules/typescript/lib/cs:
+total 320
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 317781 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/de:
+total 344
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 341106 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/es:
+total 340
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 337035 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/fr:
+total 344
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 342462 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/it:
+total 340
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 336321 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/ja:
+total 380
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 377920 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/ko:
+total 344
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 342884 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/pl:
+total 340
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 338879 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/pt-br:
+total 328
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 327060 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/ru:
+total 440
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 439550 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/tr:
+total 328
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 327504 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/zh-cn:
+total 296
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 293127 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/typescript/lib/zh-tw:
+total 292
+drwxr-xr-x  2 wickedwango wickedwango   4096 Feb 24 22:04 .
+drwxr-xr-x 15 wickedwango wickedwango   4096 Feb 24 22:04 ..
+-rw-r--r--  1 wickedwango wickedwango 289786 Feb 24 22:04 diagnosticMessages.generated.json
+
+./node_modules/undici-types:
+total 204
+drwxr-xr-x  2 wickedwango wickedwango  4096 Feb 24 22:29 .
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  1065 Feb 24 22:29 agent.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1455 Feb 24 22:29 api.d.ts
+-rw-r--r--  1 wickedwango wickedwango   961 Feb 24 22:29 balanced-pool.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1251 Feb 24 22:29 cache.d.ts
+-rw-r--r--  1 wickedwango wickedwango  4964 Feb 24 22:29 client.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1029 Feb 24 22:29 connector.d.ts
+-rw-r--r--  1 wickedwango wickedwango   561 Feb 24 22:29 content-type.d.ts
+-rw-r--r--  1 wickedwango wickedwango   635 Feb 24 22:29 cookies.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1579 Feb 24 22:29 diagnostics-channel.d.ts
+-rw-r--r--  1 wickedwango wickedwango 14188 Feb 24 22:29 dispatcher.d.ts
+-rw-r--r--  1 wickedwango wickedwango   675 Feb 24 22:29 env-http-proxy-agent.d.ts
+-rw-r--r--  1 wickedwango wickedwango  4280 Feb 24 22:29 errors.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1648 Feb 24 22:29 eventsource.d.ts
+-rw-r--r--  1 wickedwango wickedwango  5575 Feb 24 22:29 fetch.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1707 Feb 24 22:29 file.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1433 Feb 24 22:29 filereader.d.ts
+-rw-r--r--  1 wickedwango wickedwango  4998 Feb 24 22:29 formdata.d.ts
+-rw-r--r--  1 wickedwango wickedwango   276 Feb 24 22:29 global-dispatcher.d.ts
+-rw-r--r--  1 wickedwango wickedwango   175 Feb 24 22:29 global-origin.d.ts
+-rw-r--r--  1 wickedwango wickedwango   447 Feb 24 22:29 handlers.d.ts
+-rw-r--r--  1 wickedwango wickedwango   133 Feb 24 22:29 header.d.ts
+-rw-r--r--  1 wickedwango wickedwango  3387 Feb 24 22:29 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango   922 Feb 24 22:29 interceptors.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1090 Feb 24 22:29 LICENSE
+-rw-r--r--  1 wickedwango wickedwango  2535 Feb 24 22:29 mock-agent.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1002 Feb 24 22:29 mock-client.d.ts
+-rw-r--r--  1 wickedwango wickedwango   338 Feb 24 22:29 mock-errors.d.ts
+-rw-r--r--  1 wickedwango wickedwango  3902 Feb 24 22:29 mock-interceptor.d.ts
+-rw-r--r--  1 wickedwango wickedwango   974 Feb 24 22:29 mock-pool.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1193 Feb 24 22:29 package.json
+-rw-r--r--  1 wickedwango wickedwango   691 Feb 24 22:29 patch.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1336 Feb 24 22:29 pool.d.ts
+-rw-r--r--  1 wickedwango wickedwango   669 Feb 24 22:29 pool-stats.d.ts
+-rw-r--r--  1 wickedwango wickedwango   780 Feb 24 22:29 proxy-agent.d.ts
+-rw-r--r--  1 wickedwango wickedwango  1595 Feb 24 22:29 readable.d.ts
+-rw-r--r--  1 wickedwango wickedwango   455 Feb 24 22:29 README.md
+-rw-r--r--  1 wickedwango wickedwango   232 Feb 24 22:29 retry-agent.d.ts
+-rw-r--r--  1 wickedwango wickedwango  2983 Feb 24 22:29 retry-handler.d.ts
+-rw-r--r--  1 wickedwango wickedwango   623 Feb 24 22:29 util.d.ts
+-rw-r--r--  1 wickedwango wickedwango  5767 Feb 24 22:29 webidl.d.ts
+-rw-r--r--  1 wickedwango wickedwango  3840 Feb 24 22:29 websocket.d.ts
+
+./node_modules/widest-line:
+total 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  272 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango  228 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango 1050 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango  711 Feb 24 22:53 readme.md
+
+./node_modules/wrap-ansi:
+total 32
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rwxr-xr-x  1 wickedwango wickedwango 4686 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1109 Feb 24 22:53 license
+drwxr-xr-x  6 wickedwango wickedwango 4096 Feb 24 22:53 node_modules
+-rw-r--r--  1 wickedwango wickedwango  945 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 2760 Feb 24 22:53 readme.md
+
+./node_modules/wrap-ansi/node_modules:
+total 24
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 ansi-regex
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 emoji-regex
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 string-width
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 strip-ansi
+
+./node_modules/wrap-ansi/node_modules/ansi-regex:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  744 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  350 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  841 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 2565 Feb 24 22:53 readme.md
+
+./node_modules/wrap-ansi/node_modules/emoji-regex:
+total 52
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango  4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 es2015
+-rw-r--r-- 1 wickedwango wickedwango   427 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 10286 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango  1077 Feb 24 22:53 LICENSE-MIT.txt
+-rw-r--r-- 1 wickedwango wickedwango  1278 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango  2691 Feb 24 22:53 README.md
+-rw-r--r-- 1 wickedwango wickedwango 10287 Feb 24 22:53 text.js
+
+./node_modules/wrap-ansi/node_modules/emoji-regex/es2015:
+total 32
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 11104 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 11105 Feb 24 22:53 text.js
+
+./node_modules/wrap-ansi/node_modules/string-width:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  792 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  923 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  941 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1396 Feb 24 22:53 readme.md
+
+./node_modules/wrap-ansi/node_modules/strip-ansi:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  369 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  154 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  798 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1599 Feb 24 22:53 readme.md
+
+./node_modules/y18n:
+total 32
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 build
+-rw-r--r--  1 wickedwango wickedwango 3911 Feb 24 22:53 CHANGELOG.md
+-rw-r--r--  1 wickedwango wickedwango  183 Feb 24 22:53 index.mjs
+-rw-r--r--  1 wickedwango wickedwango  731 Feb 24 22:53 LICENSE
+-rw-r--r--  1 wickedwango wickedwango 1775 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 3215 Feb 24 22:53 README.md
+
+./node_modules/y18n/build:
+total 20
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 6783 Feb 24 22:53 index.cjs
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 lib
+
+./node_modules/y18n/build/lib:
+total 24
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  192 Feb 24 22:53 cjs.js
+-rw-r--r-- 1 wickedwango wickedwango 6268 Feb 24 22:53 index.js
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 platform-shims
+
+./node_modules/y18n/build/lib/platform-shims:
+total 12
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  377 Feb 24 22:53 node.js
+
+./node_modules/yargs:
+total 68
+drwxr-xr-x  7 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  134 Feb 24 22:53 browser.d.ts
+-rw-r--r--  1 wickedwango wickedwango  232 Feb 24 22:53 browser.mjs
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 build
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 helpers
+-rw-r--r--  1 wickedwango wickedwango 1455 Feb 24 22:53 index.cjs
+-rw-r--r--  1 wickedwango wickedwango  231 Feb 24 22:53 index.mjs
+drwxr-xr-x  3 wickedwango wickedwango 4096 Feb 24 22:53 lib
+-rw-r--r--  1 wickedwango wickedwango 1146 Feb 24 22:53 LICENSE
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 locales
+drwxr-xr-x  6 wickedwango wickedwango 4096 Feb 24 22:53 node_modules
+-rw-r--r--  1 wickedwango wickedwango 3088 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 5974 Feb 24 22:53 README.md
+-rw-r--r--  1 wickedwango wickedwango  457 Feb 24 22:53 yargs
+-rw-r--r--  1 wickedwango wickedwango  473 Feb 24 22:53 yargs.mjs
+
+./node_modules/yargs/build:
+total 76
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 7 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 62178 Feb 24 22:53 index.cjs
+drwxr-xr-x 4 wickedwango wickedwango  4096 Feb 24 22:53 lib
+
+./node_modules/yargs/build/lib:
+total 184
+drwxr-xr-x 4 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  2477 Feb 24 22:53 argsert.js
+-rw-r--r-- 1 wickedwango wickedwango 19368 Feb 24 22:53 command.js
+-rw-r--r-- 1 wickedwango wickedwango 10495 Feb 24 22:53 completion.js
+-rw-r--r-- 1 wickedwango wickedwango  1452 Feb 24 22:53 completion-templates.js
+-rw-r--r-- 1 wickedwango wickedwango  3221 Feb 24 22:53 middleware.js
+-rw-r--r-- 1 wickedwango wickedwango  1060 Feb 24 22:53 parse-command.js
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 typings
+-rw-r--r-- 1 wickedwango wickedwango 21402 Feb 24 22:53 usage.js
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 utils
+-rw-r--r-- 1 wickedwango wickedwango 12653 Feb 24 22:53 validation.js
+-rw-r--r-- 1 wickedwango wickedwango 77635 Feb 24 22:53 yargs-factory.js
+-rw-r--r-- 1 wickedwango wickedwango   234 Feb 24 22:53 yerror.js
+
+./node_modules/yargs/build/lib/typings:
+total 16
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  308 Feb 24 22:53 common-types.js
+-rw-r--r-- 1 wickedwango wickedwango   11 Feb 24 22:53 yargs-parser-types.js
+
+./node_modules/yargs/build/lib/utils:
+total 40
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 4 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 2049 Feb 24 22:53 apply-extends.js
+-rw-r--r-- 1 wickedwango wickedwango  155 Feb 24 22:53 is-promise.js
+-rw-r--r-- 1 wickedwango wickedwango 1031 Feb 24 22:53 levenshtein.js
+-rw-r--r-- 1 wickedwango wickedwango  496 Feb 24 22:53 maybe-async-result.js
+-rw-r--r-- 1 wickedwango wickedwango  299 Feb 24 22:53 obj-filter.js
+-rw-r--r-- 1 wickedwango wickedwango  436 Feb 24 22:53 process-argv.js
+-rw-r--r-- 1 wickedwango wickedwango  386 Feb 24 22:53 set-blocking.js
+-rw-r--r-- 1 wickedwango wickedwango  321 Feb 24 22:53 which-module.js
+
+./node_modules/yargs/helpers:
+total 20
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  384 Feb 24 22:53 helpers.mjs
+-rw-r--r-- 1 wickedwango wickedwango  291 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango   25 Feb 24 22:53 package.json
+
+./node_modules/yargs/lib:
+total 12
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 platform-shims
+
+./node_modules/yargs/lib/platform-shims:
+total 16
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 2301 Feb 24 22:53 browser.mjs
+-rw-r--r-- 1 wickedwango wickedwango 1876 Feb 24 22:53 esm.mjs
+
+./node_modules/yargs/locales:
+total 116
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 2602 Feb 24 22:53 be.json
+-rw-r--r-- 1 wickedwango wickedwango 2024 Feb 24 22:53 cs.json
+-rw-r--r-- 1 wickedwango wickedwango 1805 Feb 24 22:53 de.json
+-rw-r--r-- 1 wickedwango wickedwango 2019 Feb 24 22:53 en.json
+-rw-r--r-- 1 wickedwango wickedwango 1885 Feb 24 22:53 es.json
+-rw-r--r-- 1 wickedwango wickedwango 2113 Feb 24 22:53 fi.json
+-rw-r--r-- 1 wickedwango wickedwango 2117 Feb 24 22:53 fr.json
+-rw-r--r-- 1 wickedwango wickedwango 3074 Feb 24 22:53 hi.json
+-rw-r--r-- 1 wickedwango wickedwango 1883 Feb 24 22:53 hu.json
+-rw-r--r-- 1 wickedwango wickedwango 1821 Feb 24 22:53 id.json
+-rw-r--r-- 1 wickedwango wickedwango 1855 Feb 24 22:53 it.json
+-rw-r--r-- 1 wickedwango wickedwango 2411 Feb 24 22:53 ja.json
+-rw-r--r-- 1 wickedwango wickedwango 2257 Feb 24 22:53 ko.json
+-rw-r--r-- 1 wickedwango wickedwango 1680 Feb 24 22:53 nb.json
+-rw-r--r-- 1 wickedwango wickedwango 1958 Feb 24 22:53 nl.json
+-rw-r--r-- 1 wickedwango wickedwango 1661 Feb 24 22:53 nn.json
+-rw-r--r-- 1 wickedwango wickedwango  569 Feb 24 22:53 pirate.json
+-rw-r--r-- 1 wickedwango wickedwango 2075 Feb 24 22:53 pl.json
+-rw-r--r-- 1 wickedwango wickedwango 1932 Feb 24 22:53 pt_BR.json
+-rw-r--r-- 1 wickedwango wickedwango 1917 Feb 24 22:53 pt.json
+-rw-r--r-- 1 wickedwango wickedwango 2972 Feb 24 22:53 ru.json
+-rw-r--r-- 1 wickedwango wickedwango 3278 Feb 24 22:53 th.json
+-rw-r--r-- 1 wickedwango wickedwango 1912 Feb 24 22:53 tr.json
+-rw-r--r-- 1 wickedwango wickedwango 2748 Feb 24 22:53 uk_UA.json
+-rw-r--r-- 1 wickedwango wickedwango 2157 Feb 24 22:53 uz.json
+-rw-r--r-- 1 wickedwango wickedwango 1907 Feb 24 22:53 zh_CN.json
+-rw-r--r-- 1 wickedwango wickedwango 2055 Feb 24 22:53 zh_TW.json
+
+./node_modules/yargs/node_modules:
+total 24
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 ansi-regex
+drwxr-xr-x 3 wickedwango wickedwango 4096 Feb 24 22:53 emoji-regex
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 string-width
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 strip-ansi
+
+./node_modules/yargs/node_modules/ansi-regex:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  744 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  350 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  841 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 2565 Feb 24 22:53 readme.md
+
+./node_modules/yargs/node_modules/emoji-regex:
+total 52
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango  4096 Feb 24 22:53 ..
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 es2015
+-rw-r--r-- 1 wickedwango wickedwango   427 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango 10286 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango  1077 Feb 24 22:53 LICENSE-MIT.txt
+-rw-r--r-- 1 wickedwango wickedwango  1278 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango  2691 Feb 24 22:53 README.md
+-rw-r--r-- 1 wickedwango wickedwango 10287 Feb 24 22:53 text.js
+
+./node_modules/yargs/node_modules/emoji-regex/es2015:
+total 32
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 11104 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 11105 Feb 24 22:53 text.js
+
+./node_modules/yargs/node_modules/string-width:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  792 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  923 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  941 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1396 Feb 24 22:53 readme.md
+
+./node_modules/yargs/node_modules/strip-ansi:
+total 28
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  369 Feb 24 22:53 index.d.ts
+-rw-r--r-- 1 wickedwango wickedwango  154 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango 1109 Feb 24 22:53 license
+-rw-r--r-- 1 wickedwango wickedwango  798 Feb 24 22:53 package.json
+-rw-r--r-- 1 wickedwango wickedwango 1599 Feb 24 22:53 readme.md
+
+./node_modules/yargs-parser:
+total 56
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango  1016 Feb 24 22:53 browser.js
+drwxr-xr-x  3 wickedwango wickedwango  4096 Feb 24 22:53 build
+-rw-r--r--  1 wickedwango wickedwango 16462 Feb 24 22:53 CHANGELOG.md
+-rw-r--r--  1 wickedwango wickedwango   731 Feb 24 22:53 LICENSE.txt
+-rw-r--r--  1 wickedwango wickedwango  2518 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 11916 Feb 24 22:53 README.md
+
+./node_modules/yargs-parser/build:
+total 56
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango 42891 Feb 24 22:53 index.cjs
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 lib
+
+./node_modules/yargs-parser/build/lib:
+total 72
+drwxr-xr-x 2 wickedwango wickedwango  4096 Feb 24 22:53 .
+drwxr-xr-x 3 wickedwango wickedwango  4096 Feb 24 22:53 ..
+-rw-r--r-- 1 wickedwango wickedwango  2508 Feb 24 22:53 index.js
+-rw-r--r-- 1 wickedwango wickedwango  2084 Feb 24 22:53 string-utils.js
+-rw-r--r-- 1 wickedwango wickedwango  1092 Feb 24 22:53 tokenize-arg-string.js
+-rw-r--r-- 1 wickedwango wickedwango 46827 Feb 24 22:53 yargs-parser.js
+-rw-r--r-- 1 wickedwango wickedwango   425 Feb 24 22:53 yargs-parser-types.js
+
+./node_modules/yoctocolors-cjs:
+total 28
+drwxr-xr-x  2 wickedwango wickedwango 4096 Feb 24 22:53 .
+drwxr-xr-x 43 wickedwango wickedwango 4096 Feb 24 22:53 ..
+-rw-r--r--  1 wickedwango wickedwango 2193 Feb 24 22:53 index.d.ts
+-rw-r--r--  1 wickedwango wickedwango 2675 Feb 24 22:53 index.js
+-rw-r--r--  1 wickedwango wickedwango 1117 Feb 24 22:53 license
+-rw-r--r--  1 wickedwango wickedwango 1237 Feb 24 22:53 package.json
+-rw-r--r--  1 wickedwango wickedwango 3472 Feb 24 22:53 readme.md
+
+./src:
+total 32
+drwxr-xr-x 6 wickedwango wickedwango 4096 Mar  6 00:00 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Mar  6 00:21 ..
+-rw-r--r-- 1 wickedwango wickedwango  205 Mar  6 00:08 commandChain.ts
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  5 23:59 commands
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  5 22:58 config
+-rw-r--r-- 1 wickedwango wickedwango 1410 Mar  6 00:17 index.ts
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:00 types
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  5 23:46 utils
+
+./src/commands:
+total 16
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  5 23:59 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Mar  6 00:00 ..
+-rw-r--r-- 1 wickedwango wickedwango 1153 Mar  6 00:11 add.ts
+-rw-r--r-- 1 wickedwango wickedwango 2008 Mar  6 00:04 init.ts
+
+./src/config:
+total 12
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  5 22:58 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Mar  6 00:00 ..
+-rw-r--r-- 1 wickedwango wickedwango  627 Mar  6 00:06 supportedOptions.config.ts
+
+./src/types:
+total 12
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  6 00:00 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Mar  6 00:00 ..
+-rw-r--r-- 1 wickedwango wickedwango  526 Mar  6 00:02 types.ts
+
+./src/utils:
+total 16
+drwxr-xr-x 2 wickedwango wickedwango 4096 Mar  5 23:46 .
+drwxr-xr-x 6 wickedwango wickedwango 4096 Mar  6 00:00 ..
+-rw-r--r-- 1 wickedwango wickedwango  548 Mar  5 23:54 blob.ts
+-rw-r--r-- 1 wickedwango wickedwango  943 Mar  5 23:54 file.ts
+
+./.vscode:
+total 12
+drwxr-xr-x 2 wickedwango wickedwango 4096 Feb 27 20:30 .
+drwxr-xr-x 7 wickedwango wickedwango 4096 Mar  6 00:21 ..
+-rw-r--r-- 1 wickedwango wickedwango  437 Feb 27 20:30 launch.json

@@ -1,9 +1,8 @@
+import { add } from './commands/add';
 import { init } from './commands/init';
-
-type CommandChain = {
-    [key: string]: (paths: Record<string, string>, args: Record<string, string | boolean | number>, supportedOptions: Record<string, Record<string, string>>) => void;
-}
+import { CommandChain } from './types/types';
 
 export const commandFunctionMap: CommandChain = {
-    init: init
+    init: init,
+    add: add
 }

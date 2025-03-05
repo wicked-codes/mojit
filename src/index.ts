@@ -15,7 +15,7 @@ async function parseArgs() {
     const command = args[0];
 
     const commandOptions = Object.fromEntries(Object.entries(argv).filter(([key, value]) => {
-        return (key !== '_' && key !== '$0') && value;
+        return (key !== '$0') && value;
     }));
     console.log(commandOptions)
     return { command, commandOptions };

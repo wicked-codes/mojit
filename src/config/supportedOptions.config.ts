@@ -1,4 +1,6 @@
-export const supportedOptions: Record<string, Record<string, Record<string, string>>> = {
+import { SupportedOptions } from "../types/types";
+
+export const supportedOptions: SupportedOptions = {
     init: {
         b: {
             name: 'branch',
@@ -8,6 +10,16 @@ export const supportedOptions: Record<string, Record<string, Record<string, stri
             name: 'branch',
             type: 'string'
         },
+        q: {
+            name: 'quiet',
+            type: 'boolean'
+        },
+        quiet: {
+            name: 'quiet',
+            type: 'boolean'
+        }
+    },
+    add: {
         q: {
             name: 'quiet',
             type: 'boolean'
