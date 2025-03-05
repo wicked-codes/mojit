@@ -91,6 +91,7 @@ function checkIfFolderExists(repoPath: string) {
             process.exit(1);
         }
         console.log(e);
+        console.log("Please raise this an issue with the configuration, if you think this is a bug");
         process.exit(1);
     } finally {
         if (isFolderExists) {
