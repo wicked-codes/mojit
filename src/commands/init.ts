@@ -3,25 +3,7 @@ import path from 'path';
 import { input } from '@inquirer/prompts';
 import process from 'process';
 
-const supportedOptions: Record<string, Record<string, string>> = {
-    b: {
-        name: 'branch',
-        type: 'string'
-    },
-    branch: {
-        name: 'branch',
-        type: 'string'
-    },
-    q: {
-        name: 'quiet',
-        type: 'boolean'
-    },
-    quiet: {
-        name: 'quiet',
-        type: 'boolean'
-    }
-};
-export async function init(paths: Record<string, string>, options: Record<string, string | boolean | number>) {
+export async function init(paths: Record<string, string>, options: Record<string, string | boolean | number>, supportedOptions: Record<string, Record<string, string>>) {
     const { repoPath, currentFolderName } = paths;
     checkIfFolderExists(repoPath);
     const optionKeys = options ? Object.keys(options) : [];

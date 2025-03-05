@@ -3,7 +3,7 @@ import * as path from 'path';
 import * as process from 'process';
 import yargs from 'yargs';
 import { commandFunctionMap } from './commandChain';
-
+import { supportedOptions } from './config/supportedOptions.config';
 async function parseArgs(){
     const argv = await yargs(process.argv.slice(2)).parse();
     const args = argv._;
@@ -31,7 +31,7 @@ async function execute(){
     const {command, commandOptions} = await parseArgs();
     const requiredPaths = await getRequiredPaths();
     if(commandFunctionMap[command]){
-        commandFunctionMap[command](requiredPaths, commandOptions as Record<string, string|boolean|number>);
+        commandFunctionMap[command](requiredPaths, commandOptions as Record<string, string|boolean|number>, supportedOptions[command]);
     } else {
         console.log(`Command not found: ${command}`);
         process.exit(1);
